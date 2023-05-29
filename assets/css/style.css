@@ -294,6 +294,13 @@ section {
   color: var(--white-color);
 }
 
+.logo {
+  width: 100px;
+  margin-left: 10px;
+  position: relative;
+  top: -30px;
+}
+
 /* =================================== 
 Dashboard Css
 =================================== */
@@ -304,7 +311,7 @@ Dashboard Css
   border: 2px solid var(--title-color);
 }
 
-.home_content .card p{
+.home_content .card p {
   font-weight: 500;
 }
 
@@ -316,7 +323,8 @@ Dashboard Css
   background: var(--primary-color);
   border-radius: 8px;
 }
-.btn_group{
+
+.btn_group {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -324,20 +332,21 @@ Dashboard Css
 }
 
 .btn_group .btn,
-.btn_group .btn_s{
+.btn_group .btn_s {
   width: 100%;
 }
 
-.home_content .card .scan{
+.home_content .card .scan {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
-.twitter_feed{
+.twitter_feed {
   margin-top: 30px;
 }
+
 /* Responcive Part */
 
 @media screen and (max-width: 1350px) {
@@ -378,12 +387,12 @@ Dashboard Css
   }
 }
 
-@media screen and (max-width: 991px){
-  .home_content .card{
+@media screen and (max-width: 991px) {
+  .home_content .card {
     margin-top: 20px;
   }
 
-  .coin_brain{
+  .coin_brain {
     margin-top: 30px;
   }
 }
