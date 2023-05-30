@@ -181,7 +181,7 @@ section {
 }
 
 .side_navbar .nav {
-  margin-top: 120px;
+  margin-top: 25px;
 }
 
 .side_navbar .user_profile img {
@@ -331,21 +331,82 @@ Dashboard Css
   gap: 20px;
 }
 
+.btn_group.ex{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn_group.ex span{
+  width: 100%;
+}
+
 .btn_group .btn,
 .btn_group .btn_s {
   width: 100%;
+  font-size: 16px;
+}
+
+.btn_group span{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn_group span .icons,
+.btn_group span img{
+  width: 30px;
+  font-size: 20px;
 }
 
 .home_content .card .scan {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
 }
 
 .twitter_feed {
   margin-top: 30px;
 }
+
+.twitter_feed{
+  height: 600px;
+  overflow-y: auto;
+  padding-bottom: 10px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+ }
+
+.twitter_feed a{
+ width: 100%;
+ border: none;
+}
+
+.twitter-timeline{
+  border: none !important;
+}
+
+.card .deals{
+  padding: 15px;
+  background: var(--white-color);
+  border-radius: 8px;
+}
+
+.card .ex_link{
+  display: block;
+  text-align: end;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Responcive Part */
 
