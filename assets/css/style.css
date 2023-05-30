@@ -398,7 +398,10 @@ Dashboard Css
   font-weight: 500;
 }
 
-
+.coin_brain{
+  border: 2px solid var(--title-color);
+  border-radius: 8px;
+}
 
 
 
